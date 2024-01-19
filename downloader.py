@@ -73,7 +73,7 @@ class MP4ToMP3Converter:
 
 
 
-path = "/Users/simonerotundo/Music/YouTube"
+path = "."
 url = input("inserisci URL di YouTube (Video/Playlist)\n-> ")
 if url.__contains__("watch"):
     VideoHandler(url, path)
